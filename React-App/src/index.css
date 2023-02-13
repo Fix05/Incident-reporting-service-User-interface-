@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #e5e7eb;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#root{
+  height: 750px;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 750px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#uncentrable{
+  margin: auto;
+}
+
+#RegSection{
+  
+height: 67em;
+  
+}
+
+
+
+
+#RegLogo{
+
+  position: absolute;
+  top: 20px;
+  margin-top: 0;
+  background-color: linear;
+  background-color: #ffffff00;
+  
+}
+
+
+
+#registerForm{
+  position: absolute;
+  top: 140px;
+  
+}
+
+.alertMessage{
+  
+  display: flex;
+  justify-content: flex-end;
+  background-color: #d7d7d7f1;
+  
+}
+
+span{
+  width: 17em;
+  text-align: right;
+  margin: 4px 0 0 0;
+  padding: 0;
+  position:absolute;
+  color: rgba(255, 2, 2, 0.505);
+  font-size: 0.8em;
+  letter-spacing: -0.5px;
+  line-height: 11px;
+
+}
+
+#RegLogo img{
+  margin-left: 20px;
+  width: 80%;
+
+  
+  
+}
+
+

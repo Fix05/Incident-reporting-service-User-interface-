@@ -1,0 +1,50 @@
+###
+
+GET http://localhost:9000/users HTTP/1.1
+Content-Type: application/json
+
+
+###     
+
+POST http://localhost:9000/login HTTP/1.1
+Content-Type: application/json
+
+{
+    "pass": "123456",
+    "emai": "manogom@gmail.com"
+}
+###
+
+POST http://localhost:9000/api/register HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "Pedro",
+    "last": "Alcivar",
+    "emai": "manogom@gmail.com",
+    "pass": "123456",
+    "addr": "Av Chone",
+    "numb": "0984702910"
+}
+
+###
+
+POST http://localhost:9000/api/validateEmail HTTP/1.1
+Content-Type: application/json
+
+{
+    "email": "arnoglez05@gmail.com"
+}
+
+
+###
+
+POST http://localhost:9000/api/sendReport HTTP/1.1
+Content-Type: application/json
+
+{
+    "detalle": "opbgpisbpg",
+    "comentario": "aifioabfio0",
+    "id": 11,
+    "incidencia": 3
+}
